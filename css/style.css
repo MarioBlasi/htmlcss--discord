@@ -11,8 +11,8 @@
 /* HEADER */
 #app_header{
     height: 4rem;
-    background-color:rgb(64, 78, 237);
-    border: 1px solid rgb(140, 140, 175);
+    background-color:rgb(37, 94, 233);
+   
 }
  
 .barra_navigazione{
@@ -27,8 +27,7 @@
     justify-content: space-around;
     color: white;
     font-weight: bold;
-    
-    
+
 }
 .left_logo {
     height: 2rem;
@@ -66,21 +65,60 @@
     border: none; 
     border-radius: 15px; 
     padding: 10px;
-    
 }
 /*NAV*/
 #app_nav{
     height: 40rem;
-    background-color:blue;
-    border: 1px solid black;
+    background-image: url(/img/jumbo.png);
+    background-size:cover;
 }  
 .text_download{
     height: 30rem;
     width: 60rem;
-    background-color: rgb(240, 111, 240);
-    border: 1px solid black;
+
     margin: 5rem;
 }
+.titolo{
+    font-family: Whitney;
+    font-size:50px;
+    color: white;
+    text-align: center;
+}
+.text-nav{
+    color: white;
+    font-family: Helvetica Neue;
+    text-align: center;
+    margin-top: 5rem;
+}
+.download{
+    font-family: Helvetica;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none; 
+    border-radius: 3rem; 
+    padding: 10px;
+    width: 15rem; 
+    height: 4rem; 
+    font-size:medium;
+}
+.browser{
+    font-family: Helvetica;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 3rem; 
+    padding: 5px;
+    width: 20rem; 
+    height: 4rem; 
+    font-size:medium;
+}
+
 
 /*MAIN*/
 #app_main{
