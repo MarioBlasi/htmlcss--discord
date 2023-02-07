@@ -29,6 +29,8 @@
 .left_logo {
     height: 2rem;
     width: 20rem;
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
    
 }
 .center_logo{
@@ -42,19 +44,17 @@
 .right_logo{
     height: 2rem;
     width: 20rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-around;
+   
 }
 .button{
     top: 50%;
     background-color: white;
     color: black;
     font-weight: bold;
-    border: none; 
-    border-radius: 15px; 
+    border: none;
+    border-radius: 2rem;
     padding: 10px;
+    margin-left: 14rem;
 }
 
 /*NAV*/
@@ -285,18 +285,35 @@ h3,li{
     width: 80rem;
     background-color: rgb(35, 39, 42);
     border-top: 2px solid rgb(121, 131, 245);
+    margin: 1rem;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    
 }
+
+.icon-discord{
+    background-image: url(/img/logo.svg);
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
 .registrati{
     font-family: Helvetica;
-    background-color:rgb(121, 131, 245);
+    background-color: rgb(121, 131, 245);
     color: white;
     font-weight: bold;
     border: none;
     border-radius: 10rem;
-    padding: 10px;
+   
     margin-left: 71rem;
     width: 8rem;
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: -3rem;
+    margin-right: 3rem;
 }
 
