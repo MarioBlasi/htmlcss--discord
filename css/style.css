@@ -275,11 +275,9 @@ img{
     padding-bottom: 50rem;
 }
 
-/*FOOTER*/
 #app_footer{
     background-color: rgb(87, 83, 87);
     border: 1px solid black;
-    
 }
 /* UP FOOTER*/
 .up_footer{
@@ -296,31 +294,46 @@ img{
 .vertical_box_one{
     height: 40rem;
     width: 20rem;
-    background-color: pink;
+    background-color: rgb(35, 39, 42);
     border: 1px solid black;
     display: flex;
     align-items: stretch;
     flex-direction: row;
     justify-content: flex-start;
 }
+
+
 .vertical_box_prodotto,
 .vertical_box_compagnia,
 .vertical_box_risorse,
 .vertical_box_norme{
     height: 40rem;
     width: 15rem;
-    background-color: rgb(77, 196, 226);
+    background-color: rgb(35, 39, 42);
     border: 2px solid black;
     display: flex;
     align-items: stretch;
     flex-direction: left;
     justify-content: flex-start;
 }
+hr{
+    width: 80rem;
+    height: 0.2rem;
+    background-color: rgb(121, 131, 245);
+    margin-left: 19.5rem;
+}
+h1{
+   color: rgb(121, 131, 245);
+}
+h3{
+    color: white;
+}
+
 /* DOWN FOOTER*/
 .down_footer{
     height: 7rem;
     width: 80rem;
-    background-color: rgb(147, 188, 221);
+    background-color: rgb(35, 39, 42);
     border: 2px solid black;
     display: flex;
     align-items: flex-start;
@@ -328,4 +341,17 @@ img{
     justify-content: flex-start;
     margin-top: 1rem;
 }
-
+.registrati{
+    font-family: Helvetica;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none; 
+    border-radius: 3rem; 
+    padding: 10px;
+    width: 15rem; 
+    height: 4rem; 
+    font-size:medium;
+}
