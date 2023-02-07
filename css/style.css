@@ -29,10 +29,7 @@
 .left_logo {
     height: 2rem;
     width: 20rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content:space-around;
+   
 }
 .center_logo{
     height: 2rem;
@@ -133,30 +130,20 @@
     height: 35rem;
     width: 50rem;
     background-image: url(/img/item1.svg);
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
+    background-size: content;
+    background-repeat: no-repeat;
+    
 }
 .right-text_box{
     height: 27rem;
     width: 30rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
-    font-size:xx-large;
     padding:2rem;
     margin-left: 10rem;
+    margin-top: 1rem;
 }
-
-.testouno{
-    color: black;
-    font-family: Helvetica Neue;
-    text-align: center;
-    margin-top: 4rem;   
-    background-color: aqua;
+p{
+    font-size: 1.5rem;
+    margin-top: 4rem;
 }
 
 /*second BOX* --------------------color grey*/
@@ -167,31 +154,20 @@
 .big_box{
     height: 35rem;
     width: 80rem;
-    
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-top: 10rem;
     
 }
 .left-image_box_second{
     height: 35rem;
     width: 30rem;
+    background-image: url(/img/item2.svg);
+    background-size:140%;
+    background-repeat: no-repeat;
     
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 .right-text_box_second{
     height: 35rem;
     width: 50rem;
-    
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-left: 10rem;
 }
 
@@ -200,30 +176,18 @@
     height: 35rem;
     width: 80rem;
     background-color:white;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-bottom: 10rem;
 }
 .left-image_box_third{
     height: 35rem;
     width: 50rem;
     background-image: url(/img/item3.svg);
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .right-text_box_third{
     height: 35rem;
     width: 30rem;
-    background-color: pink;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-left: 10rem;
 }
 
@@ -241,13 +205,8 @@
 .final-text{
     height: 13rem;
     width: 80rem;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
     font-size:xx-large;
     padding:5rem;
-    text-align: center;
     margin-left: 2rem;
 }
 h4{
@@ -302,10 +261,6 @@ img{
     height: 40rem;
     width: 20rem;
     background-color: rgb(35, 39, 42);
-    display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-top: 3rem;
     
 }
@@ -316,11 +271,6 @@ img{
     height: 40rem;
     width: 15rem;
     background-color: rgb(35, 39, 42);
-    
-    display: flex;
-    align-items: stretch;
-    flex-direction: left;
-    justify-content: flex-start;
     margin-top: 3rem;
 }
 h1{
@@ -335,10 +285,6 @@ h3,li{
     width: 80rem;
     background-color: rgb(35, 39, 42);
     border-top: 2px solid rgb(121, 131, 245);
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
 .registrati{
     font-family: Helvetica;
