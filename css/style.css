@@ -17,7 +17,6 @@
 .barra_navigazione{
     height: 2rem;
     width: 80rem;
-    background-color: white;
     border: 1px solid dotted;
     margin: 1rem;
     display: flex;
@@ -30,7 +29,6 @@
 .left_logo {
     height: 2rem;
     width: 20rem;
-    background-color:rgb(64, 78, 237);
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -39,7 +37,6 @@
 .center_logo{
     height: 2rem;
     width: 50rem;
-    background-color:rgb(64, 78, 237);
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -48,7 +45,6 @@
 .right_logo{
     height: 2rem;
     width: 20rem;
-    background-color:rgb(64, 78, 237);
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -151,11 +147,14 @@
     font-size:xx-large;
     padding:2rem;
     margin-left: 10rem;
-    
 }
+
 .testouno{
-    margin-bottom: 5rem;
-    
+    color: black;
+    font-family: Helvetica Neue;
+    text-align: center;
+    margin-top: 4rem;   
+    background-color: aqua;
 }
 
 /*second BOX* --------------------color grey*/
