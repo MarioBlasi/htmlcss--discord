@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica;
 }
  
 .flex_container{
@@ -11,7 +12,7 @@
 /* HEADER */
 #app_header{
     height: 4rem;
-    background-color:rgb(37, 94, 233);
+    background-color:rgb(39, 95, 233);
    
 }
  
@@ -75,7 +76,6 @@
 .text_download{
     height: 30rem;
     width: 60rem;
-
     margin: 5rem;
 }
 .titolo{
@@ -88,7 +88,7 @@
     color: white;
     font-family: Helvetica Neue;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .download{
     font-family: Helvetica;
@@ -118,12 +118,11 @@
     height: 4rem; 
     font-size:medium;
 }
-
-
 /*MAIN*/
 #app_main{
     background-color: white;
-    border: 1px solid black;
+    
+    
 }
 /*first BOX*/
 /*.color_white_bg{
@@ -144,7 +143,8 @@
 .left-image_box{
     height: 35rem;
     width: 50rem;
-    background-color: lightblue;
+    background-image: url(/img/item1.svg);
+    background-size: cover;
     border: 1px solid black;
     display: flex;
     align-items: flex-start;
@@ -152,15 +152,23 @@
     justify-content: flex-start;
 }
 .right-text_box{
-    height: 35rem;
+    height: 27rem;
     width: 30rem;
-    background-color: pink;
     border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
+    font-size:xx-large;
+    padding:2rem;
 }
+
+
+/*.I server Discord sono organizzati in canali 
+ tematici in cui puoi collaborare, condividere o semplicemente parlare
+ della tua giornata senza intasare una chat di gruppo
+    
+}*/
 /*second BOX* --------------------color grey*/
 .color_grey_bg{
     background-color: lightgray;
@@ -245,9 +253,21 @@
 .big_box_fourth{
     height: 60rem;
     width: 80rem;
-    background-color: green;
+    background-color:white;
     border: 2px solid black;
     margin-top: 5rem;
+}
+.final-text{
+    height: 13rem;
+    width: 80rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size:xx-large;
+    padding:5rem;
+    text-align: center;
 }
 
 /*FOOTER*/
