@@ -145,7 +145,10 @@ p{
     font-size: 1.5rem;
     margin-top: 4rem;
 }
-
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 /*second BOX* --------------------color grey*/
 .color_grey_bg{
     background-color: rgb(246, 246, 246);
@@ -192,8 +195,7 @@ p{
 }
 
 /*Fourth BOX*/
-.color_grey_bg{
-    background-color: rgb(246, 246, 246);
+img{
     padding-bottom: 5rem;
 }
 .big_box_fourth{
@@ -213,12 +215,13 @@ h4{
     text-align: center;
     margin-left: 3rem;
     margin-right: 3rem;
-    font-size: large;
+    
 }
-img{
+.center-image_box_fourth{
     width: 80rem;; 
     height:100rem;
-    padding-bottom: 50rem;
+    padding-bottom: 5rem;
+    margin-left: 9rem;
 }
 .color-end-box{
     font-size: xx-large;
@@ -255,13 +258,13 @@ img{
     align-items: stretch;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 0.5rem;
+    margin-top: 4rem;
 }
 .vertical_box_one{
     height: 40rem;
     width: 20rem;
     background-color: rgb(35, 39, 42);
-    margin-top: 3rem;
+    margin-top: 4rem;
     
 }
 .vertical_box_prodotto,
@@ -271,14 +274,25 @@ img{
     height: 40rem;
     width: 15rem;
     background-color: rgb(35, 39, 42);
-    margin-top: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
 }
 h1{
    color: rgb(121, 131, 245);
+   font-weight: bold;
+   margin-bottom: 2rem;
 }
 h3,li{
     color: white;
+    margin-bottom: 1rem;
 }
+ul{
+    list-style: none;
+}
+
 /* DOWN FOOTER*/
 .down_footer{
     height: 7rem;
@@ -299,7 +313,7 @@ h3,li{
     height: 2rem;
     width: 20rem;
     margin-top: 2rem;
-    margin-bottom: -1rem;
+    margin-bottom: -2rem;
 }
 
 .registrati{
