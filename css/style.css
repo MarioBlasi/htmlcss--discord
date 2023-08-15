@@ -38,7 +38,7 @@
 .left_logo {
   height: 2rem;
   width: 20rem;
-  background-image: url(/img/logo.svg);
+  background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
 }
 .center_logo {
@@ -67,7 +67,7 @@
 /*NAV*/
 #app_nav {
   height: 40rem;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
   background-size: cover;
 }
 .text_download {
@@ -135,7 +135,7 @@
 .left-image_box {
   height: 35rem;
   width: 50rem;
-  background-image: url(/img/item1.svg);
+  background-image: url(../img/item1.svg);
   background-size: content;
   background-repeat: no-repeat;
 }
@@ -167,7 +167,7 @@ h2 {
 .left-image_box_second {
   height: 35rem;
   width: 30rem;
-  background-image: url(/img/item2.svg);
+  background-image: url(../img/item2.svg);
   background-size: 140%;
   background-repeat: no-repeat;
 }
@@ -187,7 +187,7 @@ h2 {
 .left-image_box_third {
   height: 35rem;
   width: 50rem;
-  background-image: url(/img/item3.svg);
+  background-image: url(../img/item3.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -308,7 +308,7 @@ ul {
 }
 
 .icon-discord {
-  background-image: url(/img/logo.svg);
+  background-image: url(../img/logo.svg);
   background-repeat: no-repeat;
   height: 2rem;
   width: 20rem;
